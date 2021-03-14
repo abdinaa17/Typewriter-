@@ -1,0 +1,32 @@
+body {
+    background-color: #eb4d4b;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #fff;
+    height: 100vh;
+}
+
+#typing {
+    max-width: 40ch;
+    margin: 5rem auto;
+    font-size: 1.2rem;
+}
+
+#btn {
+    display: inline-block;
+    background: none;
+    color: inherit;
+    padding: 1rem .5rem;
+    font-size: 1rem;
+    border-radius: 5px;
+    outline: none;
+    cursor: pointer;
+    text-transform: capitalize;
+    border: 1px solid #fff;
+
+}
